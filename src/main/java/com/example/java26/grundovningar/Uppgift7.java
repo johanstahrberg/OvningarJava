@@ -1,4 +1,4 @@
-package com.example.java26.ovningar;
+package com.example.java26.grundovningar;
 
 public class Uppgift7 {
     static void main() {
