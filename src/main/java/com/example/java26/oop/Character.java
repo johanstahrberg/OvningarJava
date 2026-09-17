@@ -3,7 +3,7 @@ package com.example.java26.oop;
 public class Character {
 
     private int health;
-    private int maxHealth;
+    private final int maxHealth;
 
     public Character(int health, int maxHealth) {
         this.health = health;
