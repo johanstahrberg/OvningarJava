@@ -11,6 +11,24 @@ public class Triangle {
         this.sideC = sideC;
     }
 
+    public Triangle(double side) {
+        this.sideA = side;
+        this.sideB = side;
+        this.sideC = side;
+    }
+
+    public Triangle(Triangle existing) {
+        this.sideA = existing.sideA;
+        this.sideB = existing.sideB;
+        this.sideC = existing.sideC;
+    }
+
+
+    public static Triangle copyOf(Triangle existing) {
+        return new Triangle(existing);
+    }
+
+
     public double getSideA() {
         return sideA;
     }
