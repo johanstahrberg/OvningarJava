@@ -8,6 +8,14 @@ public class Character {
     public Character(int health, int maxHealth) {
         this.health = health;
         this.maxHealth = maxHealth;
+
+        if (health < 0) {
+            this.health = 0;
+        }
+
+        if (health > maxHealth) {
+            this.health = maxHealth;
+        }
     }
 
     public int getHealth() {
