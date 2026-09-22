@@ -1,6 +1,6 @@
 package com.example.java26.oop2;
 
-public class Uppgift1 {
+public class VehicleDemo {
     static void main() {
 
         Vehicle vehicle = new Vehicle();
