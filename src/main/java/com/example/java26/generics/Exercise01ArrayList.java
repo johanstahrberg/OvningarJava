@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-public class ArrayListExercise {
+public class Exercise01ArrayList {
     static void main() {
         List<String> strings = new ArrayList<>();
 
